@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
-    rel="stylesheet"
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet"
 />
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,18 +16,18 @@
 
             <div id="nav">
                 <div id="nleft">
-                    <a href="">Home</a>
-                    <a href="">Pricing</a>
-                    <a href="">Products</a>
+                    <a class="nlink" href="">Home</a>
+                    <a class="nlink" href="">Pricing</a>
+                    <a class="nlink" href="">Products</a>
                 </div>
-                <div id="center"><a href="">Pixcel</a></div>
+                <div id="center"><a class="nlink" href="">Pixcel</a></div>
                 <div id="nright">
-                    <a href="">Our Journey</a>
+                    <a class="nlink" href="">Our Journey</a>
                 </div>
             </div>
 
             <div id="hero">
-                <div id="sustain">
+                <div class="anim2"  id="sustain">
                     <h5>01.</h5>
                     <h3>Sustainability</h3>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -37,20 +37,20 @@
 
                 </div>
 
-                <div id="ephemeral">
+                <div class="anim2" id="ephemeral">
                     <div id="headings">
                         <h1>Ephermeral</h1>
                         <h1>Equilibrium</h1>
                     </div>
 
-                    <div id="imageandtext">
+                    <div  id="imageandtext">
                         <img src="./assests/pinkplant.jpg" alt="">
     
                         <p>Commited to Sustainability and Eco-Friendly choices for better tomorrow  </p>
                     </div>
                 </div>
 
-                <div id="visit">
+                <div class="anim2"  id="visit">
                     <div id="circlev">
                         <i class="ri-arrow-down-line"></i>
                     </div>
@@ -58,11 +58,57 @@
                 </div>
 
             </div>
-            <h1>motive</h1>
-
+    
         </div>
+          <div id="motive">
+                <h3>Backdrop</h3>
+                <p>Pure organic plants create a healthy living space.
+                Green foliage<span id="onespan"></span>brings fresh energy to every room. Discover sustainable beauty for your own modern home.Breathe fresh air with our natural plant selection.<span id="twospan"></span>Lush green leaves inspire a calm and peaceful. Your daily environment deserves a touch of<span id="threespan"></span>Cultivate lasting wellness through every single leaf today.</p>
+            </div>
+
+            <div id="picture">
+                <div id="firstpic">
+                    <div id="picimg">
+                        <img src="./assests/sea.jpg" alt="">
+                    </div>
+                    <h2>Synergy</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+                <div id="secpic">
+                    <div id="picimg">
+                        <img src="./assests/cloud.jpg" alt="">
+                    </div>
+                    <h2>Harmony</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eum tempora labore amet doloribus. Obcaecati!</p>
+                </div>
+            </div>
+
+            <div id="banner">
+                <div id="bimg">
+                    <img src="./assests/bottle.jpg" alt="">
+                </div>
+                <div id="btext">
+                    <h1>Biodegradable</h1>
+                    <h1>Packaging</h1>
+                    <p>Committed to sustainability, eco-friendly choices for a better tomorrow</p>
+                </div>
+            </div>
+
+            <div id="future">
+                <video autoplay muted loop src="./assests/back.mp4"></video>
+                <div id="vtext">
+                    <h1>Think of future</h1>
+                    <button>Join the moment</button>
+                </div>
+            </div>
 
 
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script><!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script><script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
