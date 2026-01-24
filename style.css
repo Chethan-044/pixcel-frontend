@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Nimbus";
+    src: url(./assests/NimbusSanL-Regu.ttf) format("truetype");
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Nimbus";
+}
+
+#main{
+    width: 100%;
+}
+#home{
+    width: 100%;
+}
+#nav{
+    padding: 30px 10vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+#nav #nleft{
+    display: flex;
+    gap: 3vw;
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+    font-style: 12px;
+    font-weight: 550;
+}
+#nav #center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#hero{
+    width: 100%;
+    margin-top: 15vw;
+    padding: 30px 10vw;
+    margin-top: 15vw;
+    padding: 0vw 10vw;
+display: flex;
+justify-content: space-between;
+}
+#sustain{
+    width: 10vw;
+}
+#sustain h3{
+font-weight: 150;
+font-size: 23px;
+}
+#sustain h5{
+font-size: 12px;
+}
+#sustain p{
+font-size: 13px;
+margin: 10px 0;
+line-height: 1;
+}
+#sustain #suimagewrapper
+{
+    width: 100%;
+    height: 15vw;
+
+}
+#suimagewrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#ephemeral{
+    width: 25vw;
+    min-height: 36vw;
+    position: relative;
+}
+#ephemeral p{
+    margin-top: 25px;
+    width: 45%;
+    font-size: 18px;
+    line-height: 1;
+}
+#ephemeral #headings{
+    position: absolute;
+    top: -18%;
+    left: -20%;
+}
+#ephemeral img{
+    height: 100%;
+    width: 100%;
+}
+#ephemeral h1{
+    font-size: 4.5vw;
+    font-weight: 100;
+    letter-spacing: -.3vw;
+    line-height: 1;
+    opacity: 0.8;
+}
+#circlev{
+    border-radius: 50%;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid #5e5e5e;
+}
+#circlev i{
+    margin-top: 10px;
+    color: #5e5e5e;
+}
+#visit{
+    display: flex;
+    gap: 10px ;
+    align-items: center;
+
+}
+#visit h3{
+    color: #5e5e5e;
+    font-weight: 100;
+    font-size: 14px;
+}
