@@ -6,7 +6,7 @@ Built with smooth scrolling, floating elements, and immersive animations to deli
 ---
 
 ## 🚀 Live Preview
-👉 [Live Demo](pixcel-plum.vercel.app)
+👉 pixcel-plum.vercel.app
 
 ---
 
