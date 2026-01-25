@@ -1,3 +1,18 @@
+if (window.innerWidth < 1024) {
+  document.body.innerHTML = `
+    <div style="
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      font-size:20px;
+      text-align:center;
+    ">
+      This website is only accessible on desktop devices.
+    </div>
+  `;
+}
+
 
  //Locomotive
  const scroll = new LocomotiveScroll({
