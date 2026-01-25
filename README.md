@@ -1,4 +1,4 @@
-# 🌿 Sustainable Frontend Website
+<img width="1919" height="857" alt="image" src="https://github.com/user-attachments/assets/4547e711-21a7-42bd-9856-f4daab2b3b64" /># 🌿 Sustainable Frontend Website
 
 A modern, animation-rich **frontend-only website** focused on sustainability, organic living, and eco-friendly design.  
 Built with smooth scrolling, floating elements, and immersive animations to deliver a premium visual experience.
@@ -6,13 +6,7 @@ Built with smooth scrolling, floating elements, and immersive animations to deli
 ---
 
 ## 🚀 Live Preview
-👉 *(pixcel-plum.vercel.app)*
-
----
-
-## 📸 Preview
-
-> Elegant sections with vertical typography, smooth scroll transitions, floating UI elements, and gooey animations.
+👉 pixcel-plum.vercel.app
 
 ---
 
