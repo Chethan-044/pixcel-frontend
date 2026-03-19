@@ -40,7 +40,7 @@ Built with smooth scrolling, floating elements, and immersive animations to deli
 ## 🎬 Animations Used
 
 - **GSAP**
-  - ScrollTrigger animations
+  - ScrollTrigger animations.
   - Floating elements
   - Text reveal effects
 - **Locomotive Scroll**
