@@ -28,8 +28,8 @@ This project demonstrates a **Declarative CI/CD Pipeline using Jenkins** for a s
 5. The image can be pulled using Docker.
 
 ## Docker Hub Image
-bash
-docker pull chtnnn/my-html-app
+
+-docker pull chtnnn/my-html-app
 ---
 
 ## ✨ Features
