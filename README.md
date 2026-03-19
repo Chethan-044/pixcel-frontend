@@ -8,6 +8,28 @@ Built with smooth scrolling, floating elements, and immersive animations to deli
 ## 🚀 Live Preview
 👉 pixcel-plum.vercel.app
 
+##Updated Feature:
+# Jenkins Declarative CI/CD Pipeline
+
+This project demonstrates a **Declarative CI/CD Pipeline using Jenkins** for a simple HTML, CSS, and JavaScript application.
+
+## Features
+- SCM integration with GitHub
+- Automatic source code checkout
+- Automatic Docker image build
+- Automatic push to Docker Hub
+- Docker image can be pulled and run anywhere
+
+## CI/CD Workflow
+1. Jenkins connects to the GitHub repository through SCM.
+2. Jenkins checks out the source code automatically.
+3. Jenkins builds the Docker image for the application.
+4. Jenkins pushes the Docker image to Docker Hub automatically.
+5. The image can be pulled using Docker.
+
+## Docker Hub Image
+bash
+docker pull chtnnn/my-html-app
 ---
 
 ## ✨ Features
