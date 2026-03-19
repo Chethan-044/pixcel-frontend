@@ -1,6 +1,6 @@
 <img width="1919" height="857" alt="image" src="https://github.com/user-attachments/assets/4547e711-21a7-42bd-9856-f4daab2b3b64" /># 🌿 Sustainable Frontend Website
 
-A modern, animation-rich **frontend-only website** focused on sustainability, organic living, and eco-friendly design.  
+A modern, animation-rich **frontend-only website** focused on sustainability, organic living, and eco-friendly design.  .
 Built with smooth scrolling, floating elements, and immersive animations to deliver a premium visual experience.
 
 ---
